@@ -43,7 +43,7 @@ public class stack{
      return maxArea;
     }
     public static void main(String[] args){
-        int hist[] = { 6, 2, 5, 4, 5, 1, 6 }; 
+        int hist[] = { 7, 2, 3, 4, 9, 1, 8 }; 
 	System.out.println("Maximum area is " + getMaxArea(hist, hist.length));         
     }
 }
