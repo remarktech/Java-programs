@@ -52,13 +52,17 @@ public class balanced_brackets {
     
     public static void main(String[] args)
     {
+        // this for balanced parenthesis
         char exp[] = {'{','(',')','}','[',']'}; 
-          if (areParenthesisBalanced(exp)) 
+        if (areParenthesisBalanced(exp)) 
             System.out.println("Balanced "); 
-          else
+        else
+            System.out.println("Not Balanced "); 
+        // this for not balanced parenthesis
+        char exp[] = {'(','(',')','}','{',']'};
+        if (areParenthesisBalanced(exp)) 
+            System.out.println("Balanced "); 
+        else
             System.out.println("Not Balanced "); 
     }
-    
-    
-    
 }
